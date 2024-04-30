@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.dice-container {
+	display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+
+button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+}
+
+.btn-dice:hover{
+    border-color:brown;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
